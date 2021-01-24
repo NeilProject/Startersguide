@@ -1,0 +1,9 @@
+Init
+	Table T = {}
+	T[1] = "Jeroen"
+	T[2] = "Broks"
+	for i = 1,2
+		print(T[i])
+	end
+end
+

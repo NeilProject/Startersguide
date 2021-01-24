@@ -1,0 +1,16 @@
+Init
+	table zoo
+	zoo += "Lion"
+	zoo += "Monkey"
+	zoo += "Rhino"
+	zoo += "Stork"
+	zoo += "Crocodile"
+	zoo += "Bat"
+	zoo += "Snake"
+	zoo += "Shark"
+	zoo += "Pinguin"
+	
+	for animal in each(zoo)
+		print(animal)
+	end
+end
