@@ -1,0 +1,19 @@
+void Recite(int num)
+	cout(num," green bottles hanging on the wall,\n")
+	cout(num," green bottles hanging on the wall,\n")
+	cout("And if one green bottle should accidentally fall,\n")
+	cout("There'll be ",num-1," green bottles hanging on the wall.\n\n")
+end
+
+Init
+	Recite(10)
+	Recite(9)
+	Recite(8)
+	Recite(7)
+	Recite(6)
+	Recite(5)
+	Recite(4)
+	Recite(3)
+	Recite(2)
+	Recite(1)
+End

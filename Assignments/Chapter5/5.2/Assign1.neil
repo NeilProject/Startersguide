@@ -1,0 +1,9 @@
+
+Init
+        int i=10
+        while i>0                
+                print(i)
+		i--
+		// Make sure i is nw placed AFTER the print or 10 won't be counted. Did you see through that trapdoor?
+        end
+end

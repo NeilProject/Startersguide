@@ -1,0 +1,8 @@
+Init
+	string N = "Jeroen"
+	print(N)
+	// MIND THE SPACE BEFORE MY NAME!!!
+	N += " Jeroen"
+	print(N)
+End
+

@@ -1,0 +1,8 @@
+Init
+	string animal = "dog"
+	string sound = "woof"
+	cout("A ",animal," says ",sound)
+	animal = "cat"
+	sound = "meow"
+	cout("A ",animal," says ",sound)
+End

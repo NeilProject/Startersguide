@@ -1,0 +1,20 @@
+void modelwhile()
+	int i=0
+	repeat
+		i++
+		print(i)
+	LoopWhile i<10
+end
+
+void modeluntil()
+	int i=0
+	repeat
+		i++
+		print(i)
+	until i==10
+end
+
+Init
+	ModelWhile()
+	ModelUntil()
+End

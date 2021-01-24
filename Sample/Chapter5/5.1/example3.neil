@@ -1,0 +1,7 @@
+Init
+	int i = 3
+	bool b = i==3
+	if b
+		print("Three!")
+	end
+end

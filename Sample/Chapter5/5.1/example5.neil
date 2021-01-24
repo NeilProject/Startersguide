@@ -1,0 +1,12 @@
+init
+	int i=4
+	if i==4
+		print("four")
+	elseif i==5
+		print("five")
+	elseif i==6
+		print("six")
+	else
+		print("whatever")
+	end
+end

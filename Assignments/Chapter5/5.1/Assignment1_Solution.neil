@@ -1,0 +1,26 @@
+void Cnt()
+	static int cnt = 0
+	cnt++
+	cout(cnt)
+	if cnt==3
+		print("Boo")
+	end
+	if cnt==6
+		print("Pfwew")
+	end
+end
+
+Init
+	Cnt()
+        Cnt()
+        Cnt()
+        Cnt()
+        Cnt()
+        Cnt()
+        Cnt()
+        Cnt()
+        Cnt()
+        Cnt()
+End
+
+

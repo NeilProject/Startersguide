@@ -1,0 +1,6 @@
+string name="Jeroen"
+int yob=1975
+
+Init
+	cout("My name is ",name," and I was born in ",yob,"\n")
+end

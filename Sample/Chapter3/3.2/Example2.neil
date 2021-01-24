@@ -1,0 +1,10 @@
+Init
+	int a = 5
+	print(a)
+	a++
+	print(a)
+	a--
+	print(a)
+	a+=5
+	print(a)
+End

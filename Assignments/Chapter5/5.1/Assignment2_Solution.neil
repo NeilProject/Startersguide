@@ -1,0 +1,24 @@
+// on 3 this function should say "Yo!" and on 7 it should say "Bye!" and on all else it should say "Huh!"
+// 3 takes priority over 7
+
+// This function should do the trick then:
+void YBH(int n)
+	if n%3==0
+		print("Yo!")
+	elseif n%7==0
+		print("Bye!")
+	else
+		print("Huh!")
+	end
+end
+
+
+init
+	// Well, try it out!
+	YBH(1)
+	YBH(6)
+	YBH(123)
+	YBH(56)
+	YBH(21)
+end
+

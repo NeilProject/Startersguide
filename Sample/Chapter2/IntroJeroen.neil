@@ -1,0 +1,6 @@
+Init
+	print("Hello, my name is Jeroen P. Broks")
+	print("I was born in 1975 in the Netherlands")
+	print("Pleased to meet you")
+End
+

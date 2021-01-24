@@ -1,0 +1,9 @@
+int Sum(int a, int b)
+	return a+b
+end
+
+init
+	int a = Sum(4,3)
+	print(a)
+	print(Sum(15,20))
+end

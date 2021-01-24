@@ -1,0 +1,16 @@
+void MyFunc()
+	static int i = 0
+	i++
+	print(i)
+end
+
+Init
+	MyFunc()
+        MyFunc()
+        MyFunc()
+        MyFunc()
+        MyFunc()
+        MyFunc()
+        MyFunc()
+        MyFunc()
+End

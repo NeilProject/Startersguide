@@ -1,0 +1,10 @@
+void Sum(int a, int b)
+	print(a+b)
+end
+
+Init
+	Sum(5,4)
+	Sum(3,2)
+	Sum(22,28)
+End
+

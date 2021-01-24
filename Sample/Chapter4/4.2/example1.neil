@@ -1,0 +1,13 @@
+void ObiWanKenobi()
+	Print("Hello, there")
+end
+
+void GeneralGrievous()
+	Print("General Kenobi!")
+	Print("You are a bold one!")
+End
+
+Init
+	ObiWanKenobi()
+	GeneralGrievous()
+End

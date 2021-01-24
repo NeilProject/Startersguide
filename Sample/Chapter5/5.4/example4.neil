@@ -1,0 +1,6 @@
+Init
+	int n=4
+	for i=n,n*10
+		cout(i,"/",n,"\n")
+	end
+end

@@ -1,0 +1,13 @@
+int div3(int s, int e)
+	for i=s,e
+		if i%3==0
+			return i
+		end
+	end
+	return 0
+end
+
+init
+	// If you wanna test it
+	print(div3(1,5))
+end

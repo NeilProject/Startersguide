@@ -1,0 +1,17 @@
+void PNum(int n)
+	cout(n)
+	if n==3
+		cout(" Hey, we got three!")
+	end
+	cout("\n")
+end
+
+init
+	PNum(1)
+        PNum(2)
+        PNum(3)
+        PNum(4)
+        PNum(5)
+        PNum(6)
+end
+
