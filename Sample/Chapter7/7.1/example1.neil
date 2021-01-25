@@ -1,0 +1,27 @@
+Class Person
+	string Name
+	int Age
+	string Gender
+	string Occupation
+end
+
+Table Data
+
+void Add(string N,int A, string G, string O)
+	var R = new Person()
+	Data += R
+	R.Name = N
+	R.Age = A
+	R.Gender = G
+	R.Occupation = O
+end
+
+Init
+	Add("Tina",24,"female","store clerk")
+	Add("Leo",40,"male","trucker")
+	for k,r in ipairs(Data)
+		cout(r.Name," is a ",r.Age," years old ",r.Gender,", who works as a ",r.Occupation,"\n")
+	end
+end
+	
+	

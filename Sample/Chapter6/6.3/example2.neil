@@ -1,0 +1,18 @@
+Init
+	Table D
+
+	D.Jeroen = {}
+	D.Jeroen.First = "Jeroen"
+	D.Jeroen.Last = "Broks"
+	D.Jeroen.Work = "Coder"
+
+
+	D.Neil = {}
+	D.Neil.First = "Neil"
+	D.Neil.Last = "Armstrong"
+	D.Neil.Work = "Astronaut"
+
+	for k,v in pairs(D)
+		cout(v.First," ",v.Last," is a ",v.Work,"\n")
+	end
+end

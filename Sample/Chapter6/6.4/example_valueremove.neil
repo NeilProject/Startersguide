@@ -1,0 +1,11 @@
+Init
+	table A
+	A += "A"
+	A += "B"
+	A += "C"
+	A += "D"
+	A -= "C"
+	for i,v in ipairs(A)
+		print(i,v)
+	end
+end

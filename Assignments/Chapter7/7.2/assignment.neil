@@ -1,0 +1,37 @@
+Class Person                                                                                    
+    string Name                                                                                 
+    int Age                                                                                     
+    string Gender                                                                               
+    string Occupation                                                                           
+                                                                                                
+    Constructor(string N,int A, string G, string O)                                             
+            Name = N                                                                            
+            Age = A                                                                             
+            Gender = G                                                                          
+            Occupation = O                                                                      
+    end                                                                                         
+                                                                                                
+    void Show()                                                                                 
+            cout(Name," is a ",Age," years old ",Gender,", who works as a ",Occupation,"\n")    
+    end                                                                                         
+                                                                                                
+    void Birthday()                                                                             
+            Age++                                                                               
+    end                                                                                         
+end                                                                                             
+                                                                                                
+Init                                                                                            
+	Table Data                                                                                  
+	Data += new person("Tina",24,"female","store clerk")                                        
+	Data += New Person("Leo",40,"male","trucker")                                               
+	Data += New Person("Margeret",50,"female","politician")
+	Data += New Person("Ralph",70,"male","painter")
+	Data += New Person("George",15,"male","student")
+	Data += New Person("Natasha",25,"female","photographer")
+	for k,r in ipairs(Data)                                                                     
+		if r.Gender=="female"
+			r.Birthday()
+		end
+		r.Show()                                                                            
+	end
+end                                                                                             

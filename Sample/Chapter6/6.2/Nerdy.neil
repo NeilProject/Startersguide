@@ -1,0 +1,10 @@
+Init
+	Table Trick
+	Trick["Hello"] = "Hi"
+	print(Trick.Hello)
+	Trick.Bye = "Goodbye"
+	print(Trick["Bye"])
+	for k,v in pairs(Trick)
+		print(k,v)
+	end
+end

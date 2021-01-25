@@ -1,0 +1,7 @@
+Init
+	Table A
+	A.B = {}
+	A.B.C = 1
+	A.D.E = 2 
+end
+

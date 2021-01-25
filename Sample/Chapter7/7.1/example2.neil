@@ -1,0 +1,24 @@
+Class Person
+	string Name
+	int Age
+	string Gender
+	string Occupation
+
+	Constructor(string N,int A, string G, string O)
+		Name = N
+		Age = A
+		Gender = G
+		Occupation = O
+	end
+end
+
+Init
+	Table Data
+	Data += new person("Tina",24,"female","store clerk")
+	Data += New Person("Leo",40,"male","trucker")
+	for k,r in ipairs(Data)
+		cout(r.Name," is a ",r.Age," years old ",r.Gender,", who works as a ",r.Occupation,"\n")
+	end
+end
+	
+	

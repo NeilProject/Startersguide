@@ -1,0 +1,28 @@
+Table Database
+
+void NewRecord(string Name,string Work)
+	Table Rec
+	Database += Rec
+	Rec.Name = Name
+	Rec.Work = Work
+end
+
+
+Init
+	NewRecord("Jeroen Broks","Coder")
+	NewRecord("Paul McCartney","Singer")
+	NewRecord("Alan Rickman","Actor")
+	NewRecord("Bill Clinton","Former U.S. President")
+	NewRecord("Jim Henson","Puppeteer")
+	NewRecord("Blaise Pascal","Scientist")
+	NewRecord("Anne Robinson","Quiz host")
+	NewRecord("Julius Caesar","Ruler of ancient Rome")
+	for idx,rec in ipairs(Database)
+		print("Rec ",idx)
+		for key,value in spairs(rec)
+			print(key,value)
+		end
+		print()
+	end
+	print("End")
+end

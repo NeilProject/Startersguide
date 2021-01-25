@@ -1,0 +1,11 @@
+Init
+	Table Animals
+	Animals["Dog"] = "Woof"
+	Animals["Cat"] = "Meow"
+	Animals["Bird"] = "Tweet"
+	Animals["Mouse"] = "Squeak"
+
+	for key,value in pairs(Animals)
+		cout("A ",key," says '",value,"'\n")
+	end
+end
