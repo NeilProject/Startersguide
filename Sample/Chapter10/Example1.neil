@@ -1,0 +1,10 @@
+#define Everything
+
+
+Init
+	#if Everything
+		print("Hello")
+	#fi
+		print("Hi")
+End
+

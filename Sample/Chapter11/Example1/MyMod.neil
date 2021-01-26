@@ -1,0 +1,7 @@
+module
+
+	void Hello()
+		print("Hello this is from the module")
+	end
+
+end

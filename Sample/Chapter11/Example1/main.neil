@@ -1,0 +1,12 @@
+// Main file
+
+#use "MyMod"
+
+Void Hello()
+	Print("Hello, this is from the main file!")
+End
+
+Init
+	Hello()
+	MyMod.Hello()
+End
