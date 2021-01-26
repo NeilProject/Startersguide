@@ -1,0 +1,22 @@
+class PropDemo
+
+	int val = 0
+
+	get int doubleval
+		return val * 2
+	end
+
+	set int doubleval
+		val = value div 2
+	end
+
+end
+
+init
+
+	var PD = new PropDemo()
+	PD.Val = 3
+	print(PD.Val,PD.DoubleVal)
+	PD.DoubleVal=16
+	Print(PD.Val,PD.DoubleVal)
+end

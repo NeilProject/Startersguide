@@ -1,0 +1,37 @@
+Class StatDemo
+
+	static table DList = {}
+	static int count = 0
+
+	ReadOnly int ID
+	string Name
+	int Age
+
+	Constructor(string N,int A)
+		count++
+		ID = Count
+		Name = N
+		Age = A
+		DList += self
+	End
+
+	Void Show()
+		cout("Rec ",ID,": ",Name," is ",Age," years old.\n")
+	end
+
+	Static Void ShowAll()
+		For Rec in Each(DList)
+			Rec.Show()
+		End
+	End
+
+End
+
+Init
+	New StatDemo("John",50)
+	new StatDemo("Clarice",25)
+	New StatDemo("Cornelius",18)
+	New StatDemo("Emily",45)
+	StatDemo.ShowAll()
+End
+		

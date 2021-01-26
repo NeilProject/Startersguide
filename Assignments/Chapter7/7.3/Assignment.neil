@@ -1,0 +1,30 @@
+Class Bowl
+	Int Apple
+	Int Pear
+	Int Grape
+	Int Banana
+	Int Orange
+
+	get int Fruit
+		return Apple + Pear + Grape + Banana + Orange
+	end
+
+	set int Fruit
+		Cout("Sorry, you cannot assign number ",value," to 'Fruit'. You'll have to be more specific about what type of fruit!\n")
+	end
+end
+
+Init
+	Var B = New Bowl()
+	B.Apple = 16
+	B.Pear = 6
+	B.Banana = 6
+	B.Grape = 51
+	B.Orange = 18
+	Cout("There are ",B.Fruit," pieces of fruit in the bowl\n")
+	B.Apple = 6
+	B.Banana++
+	B.Orange += 2
+        Cout("There are ",B.Fruit," pieces of fruit in the bowl\n")
+	B.Fruit = 100
+end
