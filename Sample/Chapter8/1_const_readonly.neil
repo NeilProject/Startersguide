@@ -1,0 +1,9 @@
+const string Dutch = "Hallo Wereld"
+readonly string German = "Hallo Welt"
+#macro English "Hello World"
+
+Init
+	Print(Dutch)
+	Print(German)
+	Print(English)
+End

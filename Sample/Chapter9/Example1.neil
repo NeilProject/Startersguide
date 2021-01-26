@@ -1,0 +1,14 @@
+init
+
+	for i=1,10
+		cout(i,"\t")
+		switch i
+			case 1 2 3
+				print ("Low")
+			case 8 9 10
+				print ("High")
+			default
+				print( "Whatever")
+		end
+	end
+end

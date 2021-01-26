@@ -1,0 +1,13 @@
+group Hello
+
+	readonly string HW = "Hello World"
+
+	void Hi()
+		print(HW)
+	end
+
+end
+
+Init
+	Hello.Hi()
+End

@@ -1,0 +1,51 @@
+class Race
+	string name
+	void Show()
+		print("???")
+	end
+
+	static Table All
+	static void Add(rec)
+		All += rec
+	end
+end
+
+class Animal extends Race
+	string kind
+	string eats
+	void Show()
+		cout(self.name," is a ",kind," who eats ",eats,"\n")
+	end
+end
+
+
+class Human extends Race
+	string Occupation
+	string Nationality
+	void Show()
+		cout(self.name," is a human who works as a ",Occupation," and has the ",Nationality," nationality\n")
+	end
+end
+
+
+Init
+	var b
+	b = new Animal()
+	b.Name="Bruce"
+	b.Kind="dog"
+	b.Eats="meat"
+	Race.Add(b)
+	b = new Human()
+	b.Name = "John"
+	b.Occupation = "businessman"
+	b.Nationality = "English"
+	Race.add(b)
+	b = new Human()
+	b.Name = "Esther"
+	b.Occupation = "bank manager"
+	b.Nationality = "Belgian"
+	Race.Add(b)
+	for r in each (Race.All)
+		r.Show()
+	end
+end

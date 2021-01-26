@@ -1,0 +1,28 @@
+Init
+	For I=1,15
+		Switch I
+			Case 1
+				Print("One")
+			Case 2
+				Print("Two")
+			Case 3
+				Print("Three")
+			Case 4
+				Print("Four")
+			Case 5
+				Print("Five")
+			Case 6
+				Print("Six")
+			Case 7
+				Print("Seven")
+			Case 8
+				Print("Eight")
+			Case 9
+				Print("Nine")
+			Case 10
+				Print("Ten")
+			Default
+				Print("That's too high for me!")
+		End
+	End
+End
