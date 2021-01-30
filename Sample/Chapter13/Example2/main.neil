@@ -1,0 +1,6 @@
+#use "globmod"
+
+Init
+	Hello()
+	Print(Bye)
+End

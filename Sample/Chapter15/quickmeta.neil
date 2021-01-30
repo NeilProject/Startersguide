@@ -1,0 +1,36 @@
+QuickMeta QM
+
+	Index
+		int md = key % 5
+		switch md
+			case 0
+				return "Five"
+			case 1
+				 return "One"
+			case 2
+				return "Two"
+			case 3
+				return "Three"
+			case 4
+				return "Four"
+		end
+	end
+
+	NewIndex 
+		Print("And what am I supposed to do on index #"..key.." with value "..Lua.tostring(value))
+	end
+
+end
+
+Init
+	QM[1] = "Test"
+
+	for i=1,10 
+		cout(i,"> ")
+		print(QM[i])
+	end
+
+end
+
+
+	

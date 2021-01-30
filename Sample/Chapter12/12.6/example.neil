@@ -1,0 +1,9 @@
+Init
+	#pure
+	local lualocal = "Test"
+	#endpure
+
+	import lualocal
+	PRINT(lualocal)
+End
+

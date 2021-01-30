@@ -1,0 +1,10 @@
+void AFunc()
+	print("A small step for a man, but a giant leap for mankind")
+end
+
+delegate FP = AFunc
+
+init
+	FP()
+end
+

@@ -1,0 +1,7 @@
+#use "Roman"
+
+Init
+	for i=1,50
+		print(i,Roman(i),i+50,Roman(i+50),i+100,Roman(i+100))
+	end
+end

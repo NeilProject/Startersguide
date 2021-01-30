@@ -1,0 +1,8 @@
+void Dirty()
+	global string n = "This is dirty"
+end
+
+init
+	Dirty()
+	print(n)
+end

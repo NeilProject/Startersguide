@@ -1,0 +1,28 @@
+Init
+	Table Data
+
+	Data.Lion = string()
+		return "Growl"
+	end
+
+	Data.Dog = string()
+		return "Woof"
+	end
+
+	Data.Cat = string()
+		return "Cat"
+	end
+
+	Data.Goose = string()
+		return "Honk"
+	end
+
+	Data.Cow = string()
+		return "Moo"
+	end
+
+	for Animal,Sound in spairs(Data)
+		print(Animal,Sound())
+	end
+End
+

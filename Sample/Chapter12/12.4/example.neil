@@ -1,0 +1,7 @@
+Init
+	string Hi = "hello world"
+	#pure
+		print(Hi) -- outputs "nil", ha ha ha!
+		print({$Hi$}) -- this should work in stead!
+	#endpure
+End

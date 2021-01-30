@@ -1,0 +1,6 @@
+#use "LuaMod"
+
+Init
+	LuaMod.Hello()
+End
+

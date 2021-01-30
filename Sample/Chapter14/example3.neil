@@ -1,0 +1,36 @@
+Init
+	Table dt
+	dt[1] = void()
+		print("Un")
+	end
+	dt[2] = void()
+		print("Deux")
+	end
+	dt[3] = void()
+		print("Troix")
+	end
+	dt[4] = void()
+		print("Quatre")
+	end
+	dt[5] = void()
+		print("Cinq")
+	end
+	dt[6] = void()
+		print("Six")
+	end
+	dt[7] = void()
+		print("Sept")
+	end
+	dt[8] = void()
+		print("Huit")
+	end
+	dt[9] = void()
+		print("Neuf")
+	end
+	dt[10] = void()
+		print("Dix")
+	end
+	for f in each(dt)
+		f()
+	end
+End

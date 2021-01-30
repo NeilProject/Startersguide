@@ -1,0 +1,6 @@
+#pure
+
+local neilmod = Neil.Use("MyMod")
+neilmod.Hello()
+
+#endpure

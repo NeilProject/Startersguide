@@ -1,0 +1,7 @@
+global void Hello()
+	print("Hello World")
+end
+
+global string Bye = "Goodbye"
+
+

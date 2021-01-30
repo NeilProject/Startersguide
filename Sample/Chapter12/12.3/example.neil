@@ -1,0 +1,5 @@
+Init
+	plua HW
+	HW = "Hello there in the world of PLUA"
+	print(HW)
+End

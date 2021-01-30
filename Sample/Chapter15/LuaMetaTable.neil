@@ -1,0 +1,37 @@
+Init
+	Table TrueTable
+	Table MetaTable
+	int md
+
+	MetaTable["__index"] = string(s,int i)
+		// Index
+		md = i % 5
+		switch md
+			case 0
+				return "Five"
+			case 1
+				 return "One"
+			case 2
+				return "Two"
+			case 3
+				return "Three"
+			case 4
+				return "Four"
+		end
+	end
+
+	MetaTable.__newindex = void(s,int i, v)
+		Print("And what am I supposed to do on index #"..i.." with value "..Lua.tostring(v))
+	end
+
+	Lua.setmetatable(TrueTable,MetaTable) // Alternatly you can also do TrueTable = setmetatable({},MetaTable)
+
+	TrueTable[1] = "Test"
+
+	for i=1,10 
+		cout(i,"> ")
+		print(TrueTable[i])
+	end
+
+end
+		

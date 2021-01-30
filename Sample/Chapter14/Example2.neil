@@ -1,0 +1,7 @@
+Init
+	delegate v
+	v = void()
+		print("Houston! We have a problem!")
+	end
+	v()
+end
